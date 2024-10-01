@@ -3,7 +3,7 @@ class Vector:
         self.x = x
         self.y = y
         self.z = z
-
+ 
     def __add__(self, other):
         result = Vector(self.x + other.x, self.y + other.y, self.z + other.z)
         return result
