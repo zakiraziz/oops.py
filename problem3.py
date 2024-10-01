@@ -12,7 +12,7 @@ class Employee:
         self.mncerement = ((salary/self.salary) -1)*100
 
 
-
+ 
 
 e = Employee()
 e.salaryAfterIncerement = 280.8
